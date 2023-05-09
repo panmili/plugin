@@ -1,0 +1,21 @@
+name: flutter_app_upgrade
+version: 1.2.0
+homepage: http://laomengit.com/plugin/upgrade.html
+description: App 升级功能
+environment: 
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies: 
+  dio: ^4.0.4                     #网络请求
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  plugin: 
+    androidPackage: com.flutter.flutter_app_upgrade
+    pluginClass: FlutterAppUpgradePlugin
+
